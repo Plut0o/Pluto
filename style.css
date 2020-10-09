@@ -1,0 +1,32 @@
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+      background: linear-gradient(-45deg,#0b2232,#0b2232);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    margin: 0;
+    padding: 0;
+  }
+  header {
+      color: azure;
+    background: url(./src/1.jpg) no-repeat center center; 
+    background-size: cover;
+    height: 800px;
+    text-align: center ; 
+  }
+ .navbar li {
+
+    color: teal;
+
+ }
+ h1 {
+     padding-top: 30px;
+     font-size: 80px;
+ }
+ p {
+     font-size: 35px;
+     padding-top: 0;
+ }

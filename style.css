@@ -11,22 +11,52 @@ html, body {
     padding: 0;
   }
   header {
-      color: azure;
-    background: url(./src/1.jpg) no-repeat center center; 
+      
+    background: url(./src/1.jpg); 
     background-size: cover;
+    background-position: center;
     height: 800px;
-    text-align: center ; 
+    
   }
- .navbar li {
-
-    color: teal;
-
- }
+.welcome {
+  color: azure;
+}
+  ul {
+   text-align: center;
+    color:white;
+    list-style: none;
+    letter-spacing: 50%;
+   }
  h1 {
-     padding-top: 30px;
      font-size: 80px;
+     text-align: center ; 
  }
  p {
      font-size: 35px;
-     padding-top: 0;
+     text-align: center ;  
  }
+ div .destination{
+   margin:0 auto;
+   width:90px;
+}
+ a {
+   color: white;
+ }
+ .destination a {
+  background: red;
+  border: 1px solid red;
+  border-radius: 3px;
+  color: white;
+  display: inline-block;
+  padding: 10px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.destination a:hover {
+  text-align: center;
+  background: white;
+  border: 1px solid red;
+  color: red;
+  
+}

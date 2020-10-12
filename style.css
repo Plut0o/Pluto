@@ -1,62 +1,76 @@
-html, body {
-    margin: 0;
-    padding: 0;
-  }
-  
-  body {
-      background: linear-gradient(-45deg,#0b2232,#0b2232);
-    font-family: 'Roboto', sans-serif;
-    font-weight: 100;
-    margin: 0;
-    padding: 0;
-  }
-  header {
-      
-    background: url(./src/1.jpg); 
-    background-size: cover;
-    background-position: center;
-    height: 800px;
-    
-  }
-.welcome {
-  color: azure;
+body {
+  background-color: #fafafa;
+  font-family: "Lato",  sans-serif;
 }
-  ul {
-   text-align: center;
-    color:white;
-    list-style: none;
-    letter-spacing: 50%;
-   }
- h1 {
-     font-size: 80px;
-     text-align: center ; 
- }
- p {
-     font-size: 35px;
-     text-align: center ;  
- }
- div .destination{
-   margin:0 auto;
-   width:90px;
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0d0d0d;
+  border-color: white;
+  display: table;
+  width: 100%;
 }
- a {
-   color: white;
- }
- .destination a {
-  background: red;
-  border: 1px solid red;
-  border-radius: 3px;
-  color: white;
-  display: inline-block;
-  padding: 10px;
-  text-decoration: none;
+nav li { 
+  display: table-cell;
+}
+li a {
+  display: block;
+	color: white;
+	text-align: center;
+	padding: 30px 30px;
+	text-decoration: none;
+}
+li a:hover {
+  color: #0d0d0d;
+  background-color: white;
+  border-color: #0d0d0d;
+}
+header {
+  margin:100px 15px ;
+}
+h1 {
+  font-size: 48px;
+  color: #0d0d0d;
+}
+section {
+  margin-left: 15px;
+}
+div.image {
+  right: 10px;
+  text-align: right;
+  position: absolute;
+  z-index: auto;
+}
+#pluto {
   text-align: center;
-}
-
-.destination a:hover {
-  text-align: center;
-  background: white;
-  border: 1px solid red;
-  color: red;
+  max-width: 60%;
+  border: 0 #0d0d0d solid;
+  border-radius: 50%;
   
+}
+article {
+  text-align: left;
+	margin: 15px;
+	max-width: 55%;
+	font-size: 24px;
+	line-height: 32px;
+}
+#intro p {
+  text-align: left;
+	margin: 15px;
+	max-width: 80%;
+	font-size: 24px;
+	line-height: 32px;
+}
+figure figcaption {
+  text-align: center;
+  margin:30px 0px 0px 390px;
+  font-family: "lato:ital";
+  
+  
+}
+h2 {
+  font-size: 36;
 }

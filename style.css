@@ -41,7 +41,6 @@ div.image {
   right: 10px;
   text-align: right;
   position: absolute;
-  z-index: auto;
 }
 #pluto {
   text-align: center;
@@ -54,10 +53,11 @@ article {
   text-align: left;
 	margin: 15px;
 	max-width: 55%;
-	font-size: 24px;
+	font-size: 20%;
 	line-height: 32px;
 }
 #intro p {
+  min-height: 100px;
   text-align: left;
 	margin: 15px;
 	max-width: 80%;
@@ -71,6 +71,26 @@ figure figcaption {
   
   
 }
+ol li {
+  font-family: "Lato:ital";
+}
 h2 {
   font-size: 36;
+}
+th {
+  
+  border-radius: 30px;
+  border: 2px solid #0d0d0d;
+  width:200px;
+}
+table {
+  
+  
+  text-align: center;
+  margin: 20px auto;
+}
+td {
+  border-radius: 30px;
+  border: 2px solid #0d0d0d;
+  width: 200px; 
 }
